@@ -1,0 +1,31 @@
+.camp{
+    display: flex;
+    justify-content: space-around;  
+}
+body{
+    background-color: aquamarine;
+
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d5c2c2;
+    color: #fff;
+    padding: 10px;
+  }
+  ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+ul li {
+    margin: 0 10px;
+  }
+.linkk:hover{
+    text-decoration: underline;
+    text-decoration:wavy;
+  font-weight: bold;
+  margin-right: 20px;
+}
